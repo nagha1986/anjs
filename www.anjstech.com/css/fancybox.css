@@ -1,0 +1,35 @@
+#searchwrapper {
+	width:265px; /*follow your image's size*/
+	height:112px;/*follow your image's size*/
+	background-image:url(../images/subscribe.jpg);
+	background-repeat:no-repeat; /*important*/
+	padding:0px;
+	margin:0px;
+	position:relative; /*important*/
+}
+ 
+#searchwrapper form { display:inline ; }
+ 
+.searchbox {
+	border:0px; /*important*/
+	background-color:transparent; /*important*/
+	position:absolute; /*important*/
+	top:67px;
+	left:19px;
+	width:154px;
+	height:27px;
+	padding-left:10px;
+	font-family:Calibri;
+	font-size:14px;
+	color:#333333;
+}
+ 
+.searchbox_submit {
+	border:0px; /*important*/
+	background-color:transparent; /*important*/
+	position:absolute; /*important*/
+	top:65px;
+	left:180px;
+	width:70px;
+	height:31px;
+}
